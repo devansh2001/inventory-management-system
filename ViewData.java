@@ -157,7 +157,6 @@ public class ViewData extends Application {
         noteData.getChildren().addAll(note, noteField);
 
         // Functionality -- Action Listeners
-        Button searchButton = new Button("Search");
         Label searchLabel = new Label("Search: ");
         searchLabel.setFont(new Font("Arial", 20));
         VBox searchPane = new VBox();
@@ -170,8 +169,7 @@ public class ViewData extends Application {
                 manufacturerSearchPane,
                 priceSearchPane,
                 quantitySearchPane,
-                noteSearchPane,
-                searchButton
+                noteSearchPane
         );
 
         rightPane.getChildren().addAll(table, searchPane);
@@ -218,10 +216,6 @@ public class ViewData extends Application {
             } catch (Exception ex) {
                 // Do Nothing
             }
-
-        });
-
-        searchButton.setOnAction(e -> {
 
         });
 
