@@ -3,12 +3,10 @@ This is a JavaFX-based Inventory Management System. Users can add, delete, and m
 Searching and sorting on different parameters is also possible. 
 Java is used for the operations and GUI, while mySQL used for the backend.
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 For this application, the username and password for mySQL is set as 'root' and 'rootroot' respectively.
 This can be changed easily.
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 To get started, create a database in mySQL with the name 'inventory' by running the following command:
   
@@ -30,5 +28,4 @@ Next, create a table titled 'items' with several columns by running:
 	  PRIMARY KEY(uniqueID)
 );
 
-------------------------------------------------------------------------------------------------------------------------------------
 With this, you are ready to get started!
