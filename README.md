@@ -11,12 +11,15 @@ This can be changed easily.
 ------------------------------------------------------------------------------------------------------------------------------------
 
 To get started, create a database in mySQL with the name 'inventory' by running the following command:
+  
   CREATE DATABASE inventory;
 
 Further, to enter this database, run:
+  
   USE inventory;
 
 Next, create a table titled 'items' with several columns by running:
+  
   CREATE TABLE items (
 	  uniqueID int,
 	  type varchar(30),
