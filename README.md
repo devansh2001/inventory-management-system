@@ -1,4 +1,4 @@
-# inventory-management-system
+# Inventory Management System
 This is a JavaFX-based Inventory Management System. Users can add, delete, and modify data.
 Searching and sorting on different parameters is also possible. 
 Java is used for the operations and GUI, while mySQL used for the backend.
