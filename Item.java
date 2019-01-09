@@ -51,18 +51,21 @@ public class Item {
     public long getUniqueID() {
         return uniqueID;
     }
+
     public String getType() {
         return type;
     }
+
     public int getQuantity() {
         return quantity;
     }
-    public String getManufacturer() {
-        return manufacturer;
-    }
+
+    public String getManufacturer() { return manufacturer; }
+
     public double getPrice() {
         return price;
     }
+
     public String getNote() {
         return note;
     }
