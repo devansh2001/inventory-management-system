@@ -28,5 +28,4 @@ Next, create a table titled 'items' with several columns by running:
 );
 
 ------------------------------------------------------------------------------------------------------------------------------------
-
 With this, you are ready to get started!
