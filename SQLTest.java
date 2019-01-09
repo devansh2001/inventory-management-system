@@ -41,8 +41,8 @@ public class SQLTest {
         ResultSet rs = st.executeQuery(checkQuery);
 
         boolean found = false;
-        while(rs.next()) {
-            if(rs.getInt("uniqueID") == item.getUniqueID()) {
+        while (rs.next()) {
+            if (rs.getInt("uniqueID") == item.getUniqueID()) {
                 found = true;
             }
         }
